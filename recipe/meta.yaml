@@ -1,5 +1,7 @@
 {% set name = "pedantic" %}
 {% set version = "2.1.4" %}
+{% set python_min = "3.11" %}
+
 
 package:
   name: {{ name|lower }}
