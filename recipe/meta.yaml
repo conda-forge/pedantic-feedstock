@@ -1,5 +1,5 @@
 {% set name = "pedantic" %}
-{% set version = "2.4.0" %}
+{% set version = "3.0.3" %}
 {% set python_min = "3.11" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pedantic-{{ version }}.tar.gz
-  sha256: 55a73aabcf6acbeff286d6afcf674b81db7f80bc241472d12e6ee9a97ad4bb74
+  sha256: 8d140ec3e0c0db4bd8113a3dde8cc64cc3db8d29672d4e7ce0af38b7a4bfd0aa
 
 build:
   noarch: python
