@@ -23,6 +23,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
+    - coverage >=7.14.0,<8.0.0
 
 test:
   imports:
